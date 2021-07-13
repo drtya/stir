@@ -1,0 +1,46 @@
+.leads{
+  margin-top: -40px;
+
+  .statistic{
+    position: relative;
+    z-index: 1;
+    max-width: 1040px;
+    height: 700px;
+    box-shadow: 0px -16px 64px rgba(43, 42, 53, 0.32);
+    border-radius: 11.9923px;
+    background: url("../img/leads/statistic_bg.png");
+    margin: 0 auto;
+    padding: 50px 6px 6px 6px;
+    .box{
+      /* полоса прокрутки (скроллбар) */
+      &::-webkit-scrollbar {
+        width: 0; /* ширина для вертикального скролла */
+        height: 0; /* высота для горизонтального скролла */
+        background: green; /* Цвет скроллбара */
+      }
+
+      /* ползунок скроллбара */
+      &::-webkit-scrollbar-thumb {
+        background: none; /* Цвет ползунка скроллбара */
+        border-radius: 7em; /* Закругление углов ползунка скроллбара */
+        box-shadow: inset 2px 1px 7px #843EDA; /* Тень ползунка */
+      }
+
+      /* Анимация при наведении на ползунок скроллбара */
+      &::-webkit-scrollbar-thumb:hover {
+        background-color: #24ACF2; /* Цвет ползунка */
+      }
+      margin: 0 auto;
+      width: 1025px;
+      overflow: auto;
+      height: 100%;
+      .box__static-img{
+        width: 100%;
+      }
+
+    }
+  }
+  .slider{
+
+  }
+}

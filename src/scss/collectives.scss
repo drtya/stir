@@ -1,0 +1,68 @@
+.collectives{
+  padding-top: 140px;
+  background: #2B2A35;
+  margin-bottom: -185px;
+  .collectives__logo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #191919;
+    padding: 10px 16px;
+    width: 148px;
+    height: 44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 140% */
+    color: #EDEDED;
+    .collectives__logo-img{
+      margin-right: 8px;
+    }
+  }
+  .collectives__subtitle{
+    margin-top: 31px;
+    margin-bottom: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    text-align: center;
+    color: #6EE4B5;
+  }
+  .collectives__title{
+    margin-bottom: 69px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 68px;
+    /* or 106% */
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .collectives__about{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .collectives__window{
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    img{
+
+
+    }
+  }
+}

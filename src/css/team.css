@@ -1,0 +1,8 @@
+.team .owl-item {
+  width: 264px;
+  height: 264px;
+}
+.team .owl-item .owl-img {
+  width: 100%;
+  height: 100%;
+}

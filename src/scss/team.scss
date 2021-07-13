@@ -1,0 +1,115 @@
+
+.team{
+  padding-top: 60px;
+  .owl-item{
+    .owl-box{
+      padding: 24px;
+      position: relative;
+      width: 264px;
+      height: 264px;
+      .owl-block-name{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.1);
+        border-radius: 3.99744px;
+        padding: 8px 12px 12px 12px;
+        &.Peter{
+          min-width: 113px;
+          min-height: 62px;
+        }
+        &.Liza{
+          top: unset;
+          left: unset;
+          bottom: 60px;
+          right: 0;
+          min-width: 94px;
+          min-height: 62px;
+        }
+        &.Airrack{
+          min-width: 74px;
+          min-height: 62px;
+        }
+        &.Jessica{
+          min-width: 77px;
+          min-height: 62px;
+        }
+        &.Anna{
+          min-width: 78px;
+          min-height: 62px;
+        }
+        .owl-name{
+          padding-bottom: 12px;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 12px;
+          /* identical to box height, or 100% */
+          color: #191919;
+        }
+        .owl-box-hr{
+          border: none;
+          width: 100%;
+          height: 1px;
+          background: #F7F2E4;
+        }
+        .owl-job{
+          padding-top: 6px;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 10px;
+          /* identical to box height, or 100% */
+          color: #191919;
+        }
+      }
+      .owl-block-network{
+        bottom: 60px;
+        position: absolute;
+        padding: 10px 12px;
+        right: 0;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.1);
+        border-radius: 3.99744px;
+        &.Liza{
+          right: unset;
+          bottom: unset;
+          top: 60px;
+          left: 0;
+        }
+        .owl-circle{
+          margin-bottom: 12px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 28px;
+          height: 28px;
+          border-radius: 15px;
+          color: white;
+          &:last-child{
+            margin-bottom: 0;
+          }
+          &.dark{
+            background: #282828;
+          }
+          &.purple{
+            background: #C13584;
+          }
+          &.blue{
+            background: #1DA1F2;
+          }
+          &.green{
+            background: #009771;
+          }
+        }
+      }
+      .owl-img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.splits {
+  padding: 165px 120px;
+}
+.splits .splits__title-box .splits__logo-box {
+  margin: 0 auto;
+  background: #F7F2E4;
+  border-radius: 63.959px;
+  width: 107px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.splits .splits__title-box .splits__logo-box .splits__logo {
+  margin-right: 9px;
+}
+.splits .splits__title-box .splits__subtitle {
+  margin-top: 31px;
+  margin-bottom: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  color: #F6C627;
+}
+.splits .splits__title-box .splits__title {
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 68px;
+  /* or 106% */
+  text-align: center;
+  color: #191919;
+}
+.splits .splits__title-box .splits__title::before {
+  content: "";
+  width: 260px;
+  height: 145px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background: url("../img/splits/arrow_left.png") center/cover;
+}
+.splits .splits__title-box .splits__title::after {
+  content: "";
+  width: 260px;
+  height: 145px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background: url("../img/splits/arrow_right.png") center/cover;
+}
